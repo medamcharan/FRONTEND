@@ -1,0 +1,85 @@
+{% load static %}
+
+<!DOCTYPE html>   
+<!--
+Template Name: Shiphile
+Author: <a href="https://www.os-templates.com/">OS Templates</a>
+Author URI: https://www.os-templates.com/
+Copyright: OS-Templates.com
+Licence: Free to use under our free template licence terms
+Licence URI: https://www.os-templates.com/template-terms
+-->
+<html lang="">
+<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+<head>
+<title> Drug Consumption prediction </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="{% static 'layout/styles/layout.css' %}" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- Top Background Image Wrapper -->
+<div class="bgded overlay" style="background-image:url('{% static 'images/3.jpg' %}');"> 
+  <!-- ################################################################################################ -->
+  
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  
+  <!-- ################################################################################################ -->
+  <div id="pageintro" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <article>
+      <h3 class="heading"> Drug Consumption Prediction Using Machine Learning </h3>
+      <p>  </p>
+      
+   
+    <footer>
+      <form action='input' method="POST" enctype="multipart/form-data" class="login100-form validate-form">
+        {% csrf_token %}
+
+        
+
+           <ul class="nospace inline pushright">
+             <li>
+              <div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+          <input class="input100" type="text" name="name" style = "color: black;">
+          <span class="focus-input100"></span>
+          <span class="label-input100">Name</span>
+        </div>
+        <input class="input100" type="int" name="password" style = "color: black;">
+        <span class="focus-input100"></span>
+        <span class="label-input100">Password</span>
+             
+             <footer><button type="submit" class="btn" href="#"> LOGIN </button></footer>
+           </ul>
+           </form>
+    <!-- ################################################################################################ -->
+  </div>
+  <!-- ################################################################################################ -->
+</div>
+<!-- End Top Background Image Wrapper -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+
+
+<!-- ################################################################################################ -->
+
+<!-- ################################################################################################ -->
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+<!-- JAVASCRIPTS -->
+<script src="{% static 'layout/scripts/jquery.min.js' %}"></script>
+<script src="{% static 'layout/scripts/jquery.backtotop.js' %}"></script>
+<script src="{% static 'layout/scripts/jquery.mobilemenu.js' %}"></script>
+</body>
+</html>
